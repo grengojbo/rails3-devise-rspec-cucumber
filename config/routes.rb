@@ -1,5 +1,4 @@
 Rails3DeviseRspecCucumber::Application.routes.draw do
-  root :to => 'welcome#index'
 
   authenticated :user do
     root :to => 'home#index'
@@ -13,4 +12,5 @@ Rails3DeviseRspecCucumber::Application.routes.draw do
   resources :users, :only => [:show, :index] do
     get 'invite', :on => :member
   end
+  root :to => 'welcome#index'
 end

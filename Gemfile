@@ -23,6 +23,7 @@ gem "capybara", ">= 1.1.2", :group => :test
 gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "launchy", ">= 2.1.0", :group => :test
 gem "devise", ">= 2.1.2"
+gem 'marilyn'
 
 gem 'haml-rails'
 #gem 'slim-rails'

@@ -1,0 +1,9 @@
+- if target.errors.any?
+  #error_explanation
+    %h2
+      = t('errors.template.header', :count => target.errors.size,                                   |
+        :model => t("activerecord.capitalized_models.#{target.class.to_s.singularize.underscore}")) |
+      \:
+    %ul
+      - target.errors.full_messages.each do |msg|
+        %li= msg

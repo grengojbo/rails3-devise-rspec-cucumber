@@ -22,10 +22,17 @@ gem "cucumber-rails", ">= 1.3.0", :group => :test, :require => false
 gem "capybara", ">= 1.1.2", :group => :test
 gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "launchy", ">= 2.1.0", :group => :test
+gem "hominid"
 gem "devise", ">= 2.1.2"
-gem 'marilyn'
+gem "devise_invitable", ">= 1.0.2"
 gem 'cancan'
+gem "rolify", ">= 3.1.0"
+gem "google_visualr", ">= 2.1.2"
+gem "jquery-datatables-rails", ">= 1.10.0"
+gem "simple_form"
 
+gem 'marilyn'
+gem "haml", ">= 3.1.6"
 gem 'haml-rails'
 #gem 'slim-rails'
 if RUBY_PLATFORM =~ /linux/i
@@ -35,6 +42,7 @@ if RUBY_PLATFORM =~ /linux/i
   gem 'hpricot', :group => [:development, :test]
   gem 'ruby_parser', :group => [:development, :test]
 end
+#gem "bootstrap-sass", ">= 2.0.3"
 
 # Use unicorn as the app server
 # gem 'unicorn'

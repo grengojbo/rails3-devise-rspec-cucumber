@@ -26,21 +26,5 @@ gem "devise", ">= 2.1.2"
 gem 'marilyn'
 gem 'cancan'
 
-gem 'haml-rails'
-#gem 'slim-rails'
-if RUBY_PLATFORM =~ /linux/i
-  gem 'twitter-bootstrap-rails'
-  gem 'therubyracer'
-  gem 'execjs'
-end
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-gem 'capistrano'
-gem "rvm-capistrano"
-
-# http://habrahabr.ru/post/78732/
-gem 'hirb'
-gem 'wirble'
+gem "rolify", ">= 3.1.0"
+#gem "bootstrap-sass", ">= 2.0.4.0"

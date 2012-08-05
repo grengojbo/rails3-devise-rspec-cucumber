@@ -24,6 +24,7 @@ gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "launchy", ">= 2.1.0", :group => :test
 gem "devise", ">= 2.1.2"
 gem 'marilyn'
+gem 'cancan'
 
 gem 'haml-rails'
 #gem 'slim-rails'

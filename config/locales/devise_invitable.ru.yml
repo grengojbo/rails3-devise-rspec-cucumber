@@ -5,9 +5,9 @@ en:
       invitation_token_invalid: 'The invitation token provided is not valid!'
       updated: 'Your password was set successfully. You are now signed in.'
       no_invitations_remaining: "No invitations remaining"
-      request: "Request Invitation"
+      request: "Запрос на получение приглашения на сайт"
     mailer:
       invitation_instructions:
         subject: 'Invitation instructions'
     invite:
-      request: "Request invite"
+      request: "Пригласить"

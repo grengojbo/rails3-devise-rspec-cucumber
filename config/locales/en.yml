@@ -53,3 +53,5 @@ en:
         password: "Password"
         password_confirmation: "Password confirmation"
         current_password: "Current password"
+  close: "Close"
+  want_in: "Want in?"

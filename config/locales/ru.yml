@@ -70,3 +70,4 @@ ru:
         password: "Пароль"
         password_confirmation: "Пароль ещё раз"
         current_password: "Текущий пароль"
+  want_in: "Хотите в?"
